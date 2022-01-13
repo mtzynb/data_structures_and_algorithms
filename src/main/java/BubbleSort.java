@@ -45,10 +45,8 @@ public class BubbleSort<T extends Comparable<T>> {
         if (i == j) {
             return;
         }
-
         T tmp = arr[i];
         arr[i] = arr[j];
         arr[j] = tmp;
-
     }
 }
