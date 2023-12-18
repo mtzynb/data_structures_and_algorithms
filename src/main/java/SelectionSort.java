@@ -29,7 +29,7 @@ public class SelectionSort<T extends Comparable<T>> {
     }
 
     private void selectionSort(T[] unsortedArr) {
-
+        //time: o(n^2) , space: o(n) //in-place alg
         for (int lastUnsortedIndex = unsortedArr.length - 1; lastUnsortedIndex > 0;
              lastUnsortedIndex--) {
 
